@@ -1,0 +1,26 @@
+SEP=,,
+NAME,TYPE,LOCATION
+RedTeamAS,Availability set,West US
+ELKStack-1_disk1_6a4a0ccdb4d34328b976505012924581,Disk,Central US
+Jump-Box-Provisioner_OsDisk_1_eb379fdfddcf4ddd8581fedcf39c4d27,Disk,West US
+Web-1_OsDisk_1_016f879f56894604881934d78ecdb7bb,Disk,West US
+Web-2_OsDisk_1_4f76449d84f84dda8e042b2e2bec2011,Disk,West US
+Web-3_OsDisk_1_c877afc3e9864099bff3bf5fadb5ac7d,Disk,West US
+Red_Team_LB,Load balancer,West US
+elkstack-1362,Network interface,Central US
+jump-box-provisioner616,Network interface,West US
+web-1743,Network interface,West US
+web-283,Network interface,West US
+web-3186,Network interface,West US
+ELKStack-1-nsg,Network security group,Central US
+Red_Team_NSG1,Network security group,West US
+ELKStack-1-ip,Public IP address,Central US
+Jump-Box-Provisioner-ip,Public IP address,West US
+Red_Team_LBFEIP,Public IP address,West US
+ELKStack-1,Virtual machine,Central US
+Jump-Box-Provisioner,Virtual machine,West US
+Web-1,Virtual machine,West US
+Web-2,Virtual machine,West US
+Web-3,Virtual machine,West US
+ELKStackProj,Virtual network,Central US
+Red_Team_VN1,Virtual network,West US
