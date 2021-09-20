@@ -53,7 +53,7 @@ The configuration details of each machine may be found below.
 The machines on the internal network are not exposed to the public Internet. 
 
 Only the Jump Box machine can accept connections from the Internet. Access to this machine is only allowed from the following IP addresses:
-- 71.65.153.55
+- XX.XX.XX.XX (Admin IP)
 
 Machines within the network can only be accessed by SSH from Jump Box.
 - Which machine did you allow to access your ELK VM? What was its IP address?
@@ -63,8 +63,8 @@ A summary of the access policies in place can be found in the table below.
 
 | Name                 | Publicly Accessible | Allowed IP Addresses   |
 |----------------------|---------------------|------------------------|
-| Jump-Box-Provisioner | Yes                 | 71.65.153.55           |
-| ELKStack-1           | Yes                 | 71.65.153.55; 10.0.0.4 |
+| Jump-Box-Provisioner | Yes                 | XX.XX.XX.XX            |
+| ELKStack-1           | Yes                 | XX.XX.XX.XX ; 10.0.0.4 |
 | Web-1                | No                  | 10.0.0.4               |
 | Web-2                | No                  | 10.0.0.4               |
 | Web-3                | No                  | 10.0.0.4               |
